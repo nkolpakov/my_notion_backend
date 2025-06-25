@@ -1,0 +1,1 @@
+My Notion - мой простецкий аналог Notion для github.
