@@ -12,6 +12,7 @@ django = ">=5.2.3,<6.0.0"
 djangorestframework = ">=3.16.0,<4.0.0"
 markdown = ">=3.8.2,<4.0.0"
 django-filter = ">=25.1,<26.0"
+psycopg2-binary = "^2.9.10"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
