@@ -1,20 +1,17 @@
-[project]
+[tool.poetry]
 name = "my-notion"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "nkolpakov",email = "nik.vik.kolpakov@gmail.com"}
-]
-license = {text = "MIT"}
+authors = ["nkolpakov <nik.vik.kolpakov@gmail.com>"]
+license = "MIT"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "django (>=5.2.3,<6.0.0)",
-    "djangorestframework (>=3.16.0,<4.0.0)",
-    "markdown (>=3.8.2,<4.0.0)",
-    "django-filter (>=25.1,<26.0)"
-]
 
+[tool.poetry.dependencies]
+python = ">=3.13"
+django = ">=5.2.3,<6.0.0"
+djangorestframework = ">=3.16.0,<4.0.0"
+markdown = ">=3.8.2,<4.0.0"
+django-filter = ">=25.1,<26.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
