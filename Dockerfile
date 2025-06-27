@@ -10,7 +10,7 @@ ENV PIP_DISABLE_PIP_VERSION_CHECK 1
 RUN apk update && \
     apk add --no-cache \
     python3-dev && pip install --upgrade pip && \
-    pip install poetry
+    pip install poetry && pip install setuptools
 # Создаем и переходим в рабочую директорию
 WORKDIR /app
 
