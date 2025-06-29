@@ -1,0 +1,7 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.4.5  # Используйте последнюю версию Ruff
+    hooks:
+      - id: ruff
+        # Опциональные параметры:
+        args: [--fix, --ignore=E501]  # Автоисправление и игнорирование конкретных правил
